@@ -174,3 +174,33 @@ body{
     color: #cf711f;
     font-weight: 700; 
 }
+
+/* ------------------------------ */
+/*      HOW IT WORKS SECTION      */
+/* ------------------------------ */
+
+.section-how{
+    padding: 9.6rem 0rem;
+}
+
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.grid{
+    display: grid;
+    gap: 9.6rem;
+}
+
+.grid--2-col{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-col{
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-col{
+    grid-template-columns: repeat(4, 1fr);
+}
