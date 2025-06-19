@@ -133,12 +133,26 @@
 }
 
 .step-img-box{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+.step-img-box::before{
+    content: "";
+    display: block;
+    width: 60%;
+    /* height: 60%; */
+    padding-bottom: 60%;
+    background-color: #fdf2e9;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .step-img{
-    width: 30%;
+    width: 35%;
 }
 
