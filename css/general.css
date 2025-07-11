@@ -84,14 +84,17 @@ body{
     letter-spacing: 0.75px;
 }
 
-.btn:link, .btn:visited{
+.btn, .btn:link, .btn:visited{
     display: inline-block;
     text-decoration: none;
     font-size: 2rem;
     font-weight: 600;
+    font-family: inherit;
     padding: 1.6rem 3.2rem;
+    border: none;
     border-radius: 0.9rem;
     transition: all 0.3s;
+    cursor: pointer;
 }
 
 .btn--full:link, .btn--full:visited{
